@@ -3,6 +3,7 @@ import Button from "../common/Button";
 import Loader from "../common/Loader";
 import { login } from "../../images/authService.js";
 
+
 const LoginModal = ({ onClose }) => {
     const [formData, setFormData] = useState({
         email: "",

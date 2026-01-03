@@ -1,6 +1,7 @@
 import Button from "../common/Button";
 import { Link } from "react-router-dom";
 
+
 const CourseCard = ({ course }) => {
     return (
         <div className="border rounded-xl p-6 shadow-sm hover:shadow-md transition">

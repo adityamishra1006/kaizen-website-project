@@ -19,6 +19,7 @@ const testimonials = [
     },
 ];
 
+
 const Testimonials = () => {
     return (
         <section className="py-16 bg-white">

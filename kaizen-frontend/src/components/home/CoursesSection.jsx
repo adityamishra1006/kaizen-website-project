@@ -1,5 +1,6 @@
 import CourseCard from "../course/CourseCard";
 
+
 const CoursesSection = () => {
     const courses = [
         {

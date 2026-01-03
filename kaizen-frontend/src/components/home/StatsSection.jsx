@@ -17,6 +17,7 @@ const stats = [
     },
 ];
 
+
 const StatsSection = () => {
     return (
         <section className="bg-blue-600 py-12">

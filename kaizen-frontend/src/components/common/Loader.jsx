@@ -1,4 +1,5 @@
 const Loader = ({ message = "Loading..." }) => {
+
     return (
         <div className="flex flex-col items-center justify-center py-10">
             {/* Spinner */}

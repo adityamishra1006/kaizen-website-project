@@ -2,6 +2,7 @@ import Button from "../common/Button";
 import heroImg from "../../images/hero.png";
 import {Link} from "react-router-dom";
 
+
 const HeroSection = () => {
     return (
         <section className="bg-gradient-to-r from-blue-50 to-white py-20">

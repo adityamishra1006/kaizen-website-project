@@ -2,6 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { isAuthenticated, logout } from "../../services/authService.js";
 import Button from "./Button";
 
+
 const Navbar = () => {
     const authenticated = isAuthenticated();
     const navigate = useNavigate();

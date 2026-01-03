@@ -14,6 +14,7 @@ const Footer = () => {
                     </p>
                 </div>
 
+
                 {/* Quick Links */}
                 <div>
                     <h4 className="text-lg font-medium text-white mb-3">

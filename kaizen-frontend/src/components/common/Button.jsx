@@ -17,6 +17,7 @@ const Button = ({
             "border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white",
     };
 
+
     return (
         <button
             type={type}
