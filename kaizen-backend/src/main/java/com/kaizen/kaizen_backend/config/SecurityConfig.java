@@ -38,6 +38,7 @@ public class SecurityConfig {
 
                         // Public auth endpoints
                         .requestMatchers("/api/auth/**").permitAll()
+                        .requestMatchers(HttpMethod.POST, "/api/enquiries").permitAll()
                         // Public course READ APIs
                         .requestMatchers(HttpMethod.GET, "/api/courses/**").permitAll()
                         // Admin-only course WRITE APIs
