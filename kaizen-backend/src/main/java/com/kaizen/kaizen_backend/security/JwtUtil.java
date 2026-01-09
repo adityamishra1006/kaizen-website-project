@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 import javax.xml.crypto.Data;
 import java.security.Key;
 import java.util.Date;
+import java.util.HashMap;
 
 @Component
 public class JwtUtil {
@@ -23,6 +24,9 @@ public class JwtUtil {
     public String generateToken(String email){
         Date now = new Date();
         Date expiryDate = new Date(now.getTime() + jwtExpiration);
+
+        HashMap<String, Object> claims = new HashMap<>();
+
 
         return Jwts.builder()
                 .setSubject(email)
